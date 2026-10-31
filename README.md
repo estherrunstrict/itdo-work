@@ -6,6 +6,8 @@ and runtime code belong in a separate environment.
 
 The homepage uses the selected family illustration, `family-portrait-v1.png`.
 Its source photograph and private generation notes are excluded from this directory.
+The header and footer use the supplied brand image, `itdo-brand-v1.png`; CSS frames
+the central wordmark while preserving the original image file.
 
 ## Preview
 
