@@ -4,6 +4,9 @@ Public project showcase for `itdo.work`. All examples are fictional. This direct
 contains only the public website; private accounts, records, agent configuration,
 and runtime code belong in a separate environment.
 
+The homepage uses the selected family illustration, `family-portrait-v1.png`.
+Its source photograph and private generation notes are excluded from this directory.
+
 ## Preview
 
 Run `python3 -m http.server 9130 --bind 127.0.0.1 --directory public-site` from the
