@@ -82,7 +82,8 @@ copied. Source photographs and private generation notes are excluded.
 `/businesses/runstrict/`, `/businesses/tosburger/`, `/businesses/tap2work/` and
 `/businesses/openedu/` contain reviewed product details, original SSD logos,
 available app screenshots, official links and FAQs. The homepage directory at
-`/#apps` links to all four. TAP Work is explicitly a development preview.
+`/#apps` links directly to each business’s official homepage, using the `homepage`
+field in the catalog. TAP Work is explicitly a development preview.
 
 Edit `../content/businesses.json`, then run `python3 scripts/build-business-pages.py`
 from the workspace root. The generator updates the homepage directory, four
