@@ -60,8 +60,8 @@ serving `main` at `/ (root)`. Keep `.nojekyll` and `CNAME` (`itdo.work`). Preser
 the existing Cloudflare DNS and protected `/control/` route. The public homepage
 continues to use GitHub Pages; no hosting migration is needed.
 
-Include the `assets` directory when publishing: both WebP files are required for
-the agent illustrations. Never upload the enclosing workspace or review files.
+Include the `assets` directory when publishing: the two agent illustrations and
+`assets/businesses/` supply the original artwork for the homepage and product pages. Never upload the enclosing workspace or review files.
 When changing CSS or JavaScript, update its `v` query in `index.html` to refresh
 cached files. Verify the live HTML, CSS, JavaScript and image assets after deployment.
 
@@ -76,3 +76,17 @@ The character lineup uses `assets/agents_persona.webp` and
 to hado, yellow to wondo and pink to siado. The crowned leader is itdo. Device
 illustrations and animation are HTML, CSS and SVG; no reference-site assets are
 copied. Source photographs and private generation notes are excluded.
+
+## Business marketing pages
+
+`/businesses/runstrict/`, `/businesses/tosburger/`, `/businesses/tap2work/` and
+`/businesses/openedu/` contain reviewed product details, original SSD logos,
+available app screenshots, official links and FAQs. The homepage directory at
+`/#apps` links to all four. TAP Work is explicitly a development preview.
+
+Edit `../content/businesses.json`, then run `python3 scripts/build-business-pages.py`
+from the workspace root. The generator updates the homepage directory, four
+detail pages and content-hashed CSS links. Shared styling is in `businesses.css`.
+Publish the resulting public files and assets together. The generator never reads
+private campaign drafts or the local wiki. See `../ITDO_BUSINESS_MARKETING.md` for
+the private editor, source provenance and Qwen knowledge workflow.
