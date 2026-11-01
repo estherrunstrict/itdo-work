@@ -91,3 +91,12 @@ detail pages and content-hashed CSS links. Shared styling is in `businesses.css`
 Publish the resulting public files and assets together. The generator never reads
 private campaign drafts or the local wiki. See `../ITDO_BUSINESS_MARKETING.md` for
 the private editor, source provenance and Qwen knowledge workflow.
+
+## Room audio artwork
+
+The hero and everyday-life scenes use `assets/wiim-amp.svg`, a code-drawn WiiM
+Amp illustration with a low silver enclosure, front indicator lights and volume
+dial. `devices.css` controls its sizing, placement and surrounding waveform.
+The [official product page](https://wiimhome.com/wiimamp/overview) supplied the
+visual reference; its photos are not embedded. Existing pause and reduced-motion
+controls apply. The public sample still plays through the visitor’s browser.
