@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 160" fill="none">
+  <defs>
+    <linearGradient id="top" x1="34" y1="23" x2="196" y2="107" gradientUnits="userSpaceOnUse"><stop stop-color="#f3f4f3"/><stop offset=".46" stop-color="#d6d9d7"/><stop offset="1" stop-color="#b8bdba"/></linearGradient>
+    <linearGradient id="front" x1="22" y1="91" x2="236" y2="142" gradientUnits="userSpaceOnUse"><stop stop-color="#b2b8b4"/><stop offset=".14" stop-color="#d6dad7"/><stop offset=".66" stop-color="#c4cac5"/><stop offset="1" stop-color="#a7afa9"/></linearGradient>
+    <linearGradient id="side" x1="230" y1="61" x2="244" y2="134" gradientUnits="userSpaceOnUse"><stop stop-color="#a5aea7"/><stop offset="1" stop-color="#7b8980"/></linearGradient>
+    <radialGradient id="dial" cx=".35" cy=".3" r=".8"><stop stop-color="#eef0ed"/><stop offset=".67" stop-color="#c0c8c1"/><stop offset="1" stop-color="#9ca89e"/></radialGradient>
+    <filter id="shadow" x="0" y="0" width="260" height="160" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+  <ellipse cx="132" cy="143" rx="108" ry="7" fill="#38503b" opacity=".19" filter="url(#shadow)"/>
+  <path d="M37 131h24v8H38c-2 0-3-2-3-4v-2l2-2Zm156 0h24l2 2v3c0 2-2 3-4 3h-22v-8Z" fill="#35483a"/>
+  <path d="m232 88 13-27v58c0 7-4 12-13 15V88Z" fill="url(#side)"/>
+  <path d="M19 89 35 28c1-5 5-8 11-8h177c7 0 10 3 12 9l10 32c1 6-2 13-6 22l-6 13H26l-7-7Z" fill="url(#top)" stroke="#dbe0da" stroke-width="1.2"/>
+  <path d="M19 89c0-4 3-6 7-6h201c7 0 11 4 11 11v29c0 8-5 12-13 12H30c-7 0-11-4-11-11V89Z" fill="url(#front)" stroke="#a8b1a8" stroke-width="1.2"/>
+  <path d="M26 84h201c5 0 8 2 9 6" stroke="#f6f8f2" stroke-opacity=".85" stroke-width="1.5"/>
+  <path d="M24 128c1 3 4 5 8 5h192" stroke="#81907f" stroke-opacity=".45"/>
+  <text x="131" y="55" fill="#929e94" font-family="Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="-.9" text-anchor="middle" transform="rotate(-1 131 55)">WiiM</text>
+  <g fill="#f5ffe8"><circle cx="43" cy="108" r="2"/><circle cx="51" cy="108" r="1.6"/><circle cx="59" cy="108" r="1.6"/><circle cx="67" cy="108" r="1.6"/></g>
+  <g fill="#e2e9db" opacity=".75"><circle cx="75" cy="108" r="1.6"/><circle cx="83" cy="108" r="1.6"/></g>
+  <ellipse cx="204" cy="109" rx="20" ry="20.5" fill="#7b897c" opacity=".6"/>
+  <circle cx="203" cy="108" r="18.8" fill="url(#dial)" stroke="#e8eee3" stroke-width="1.2"/>
+  <circle cx="203" cy="108" r="16.3" stroke="#b2bdb0" stroke-opacity=".6" stroke-width=".6"/>
+  <path d="m201 103 6 5-6 5v-10Z" stroke="#7f8e7e" stroke-width="1" stroke-linejoin="round"/>
+</svg>
