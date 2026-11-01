@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 184" fill="none">
+  <defs>
+    <linearGradient id="top" x1="47" y1="16" x2="186" y2="111" gradientUnits="userSpaceOnUse"><stop stop-color="#fafbf9"/><stop offset=".5" stop-color="#e0e4df"/><stop offset="1" stop-color="#bdc5bd"/></linearGradient>
+    <linearGradient id="front" x1="17" y1="112" x2="220" y2="149" gradientUnits="userSpaceOnUse"><stop stop-color="#9ba89d"/><stop offset=".13" stop-color="#e0e6dd"/><stop offset=".48" stop-color="#d3dbd0"/><stop offset=".87" stop-color="#c1cbbf"/><stop offset="1" stop-color="#8f9e91"/></linearGradient>
+    <linearGradient id="side" x1="218" y1="81" x2="230" y2="152" gradientUnits="userSpaceOnUse"><stop stop-color="#b7c1b7"/><stop offset="1" stop-color="#7f9081"/></linearGradient>
+    <filter id="shadow" x="0" y="0" width="240" height="184" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+  <ellipse cx="124" cy="164" rx="101" ry="9" fill="#3d553f" opacity=".2" filter="url(#shadow)"/>
+  <path d="M35 145h166v14c-3 6-14 9-26 9H63c-14 0-25-4-28-10v-13Z" fill="#344337"/>
+  <path d="M45 158h143" stroke="#172d20" stroke-width="7" stroke-dasharray="1 3"/>
+  <path d="m212 97 16-20v61c0 10-5 16-15 19l-1-60Z" fill="url(#side)"/>
+  <path d="m17 96 16-59c2-8 8-12 17-12h146c10 0 16 4 19 13l13 39c2 7-1 14-5 20l-9 11H27L17 96Z" fill="url(#top)" stroke="#e0e6dd" stroke-width="1.3"/>
+  <path d="M17 100c0-7 5-11 12-11h175c12 0 18 7 18 19v33c0 12-7 18-19 18H37c-13 0-20-6-20-17v-42Z" fill="url(#front)" stroke="#a8b5a6" stroke-width="1.1"/>
+  <path d="M27 91h178c7 0 12 4 14 9" stroke="#f7fcf2" stroke-width="1.5"/>
+  <path d="M23 148c2 6 7 9 15 9h162" stroke="#7b8d7b" stroke-opacity=".55"/>
+  <g fill="#647963" transform="translate(112 46) scale(.72)">
+    <path d="M13 9c-3-5-9-5-12-2-5 5-3 15 1 21 3 4 5 6 8 4 2-1 4-1 6 0 3 2 6 0 9-5 1-2 2-4 3-6-6-2-8-9-2-13-4-5-9-5-13 1Z"/>
+    <path d="M14 6c0-5 3-8 8-9 0 5-3 9-8 9Z"/>
+  </g>
+  <rect x="54" y="113" width="7" height="22" rx="3.5" fill="#38493a"/><rect x="56" y="117" width="3" height="14" rx="1.5" fill="#132a1b"/>
+  <rect x="83" y="113" width="7" height="22" rx="3.5" fill="#38493a"/><rect x="85" y="117" width="3" height="14" rx="1.5" fill="#132a1b"/>
+  <circle cx="157" cy="124" r="2.6" fill="#f7ffe9"/><circle cx="181" cy="124" r="5.4" fill="#304233"/><circle cx="181" cy="124" r="3.6" fill="#11291c"/>
+</svg>
