@@ -7,3 +7,24 @@
 .amp-voice{position:absolute;left:50%;top:-22px;transform:translateX(-50%);width:90px;height:30px}
 .amp-voice .waveform{color:#6d8f58;gap:5px}
 .home-speaker .hardware-caption{top:calc(100% + 8px);left:23px;font-size:10px;letter-spacing:.15px}
+
+/* The Mac mini is the main AI host; the Amp is its room-audio companion. */
+.hero-theatre{height:525px}
+.hero-hardware{position:absolute;left:26%;bottom:0;display:flex;align-items:end;gap:30px;z-index:4}
+.hero-hardware .hero-speaker{position:relative;left:auto;bottom:auto;scale:1;width:140px;height:115px;transform:rotate(-7deg);margin-bottom:8px}
+.hero-hardware .sound-ring{left:-18px;top:24px;width:175px}
+.hero-hardware-caption{display:block;font-size:8px;color:#7b8b70;text-align:center;white-space:nowrap;margin-top:4px}
+.hero-mac-mini{width:190px;position:relative;text-align:center}
+.hero-mac-mini>img{display:block;width:100%;height:auto;filter:drop-shadow(5px 12px 12px #3a5b3119)}
+.hero-mac-mini figcaption{display:flex;gap:8px;align-items:center;justify-content:center;margin-top:-5px;font-size:9px}
+.hero-mac-mini figcaption strong{font-weight:600;color:#405d38}
+.hero-mac-mini figcaption>span{font-size:8px;color:#789066}
+.host-agent-chips{display:flex;gap:5px;justify-content:center;margin:8px 0 0}
+.host-agent-chips .avatar{width:22px;height:22px;border:2px solid #f6f8f0;border-radius:8px;box-shadow:0 3px 5px #4d6b3611}
+.home-mac-mini{position:absolute;top:85px;right:5%;width:170px;z-index:2;transform:rotate(6deg)}
+.home-mac-mini img{width:100%;height:auto;display:block;filter:drop-shadow(7px 12px 13px #49643b1a)}
+.home-mac-mini figcaption{position:absolute;top:-14px;left:0;right:0;text-align:center;font-size:9px;color:#6d845c;white-space:nowrap}
+@media(max-width:1100px){.hero-theatre{height:490px}.hero-hardware{left:24%;scale:.9;transform-origin:bottom left}.home-mac-mini{width:150px;right:1%}}
+@media(max-width:780px){.hero-theatre{height:440px;margin-bottom:-57px}.hero-hardware{left:24%;scale:.82}.home-mac-mini{width:145px;right:3%}}
+@media(max-width:480px){.hero-theatre{height:465px;margin-bottom:-180px}.hero-hardware{left:24%;scale:.87}.home-mac-mini{width:120px;right:3%;top:91px}.home-speaker{width:220px;height:135px}.life-sun{top:7px}.home-mac-mini figcaption{font-size:8px;top:-9px}}
+@media(max-width:350px){.hero-theatre{margin-bottom:-211px}.home-mac-mini{width:108px;right:1%;top:95px}.home-speaker{width:200px;height:123px;left:0}}

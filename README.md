@@ -100,3 +100,20 @@ dial. `devices.css` controls its sizing, placement and surrounding waveform.
 The [official product page](https://wiimhome.com/wiimamp/overview) supplied the
 visual reference; its photos are not embedded. Existing pause and reduced-motion
 controls apply. The public sample still plays through the visitor’s browser.
+
+## AI host and agent hierarchy
+
+The hero and everyday-life scene show `assets/mac-mini.svg` beside WiiM Amp.
+Mac mini is labeled as the main AI host; the hero includes the four personal
+agent portraits below it. The `/#agents` section replaces the five-person row
+with itdo as administrator above jaedo, hado, wondo and siado. Desktop uses four
+connected child cards; phones use a vertical branch from the administrator.
+
+`agent-system.css` styles this hierarchy, while `devices.css` controls the device
+illustrations. Both use the original agent artwork. The Mac mini illustration is
+code-drawn with the [official Mac mini page](https://www.apple.com/mac-mini/) as a
+visual reference; reference photography is not published. This is a public
+explanation of the existing roles, not a change to runtime permissions or agents.
+
+Run `python3 scripts/build-business-pages.py` from the workspace root after
+editing either stylesheet to update their versioned homepage URLs.
