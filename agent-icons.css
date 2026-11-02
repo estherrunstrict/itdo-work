@@ -1,0 +1,6 @@
+/* Individual PNGs preserve genuine transparency around each character. */
+.avatar-jaedo{background-image:url("./assets/agents/jaedo-v2.png");background-size:contain;background-position:center;border-radius:0}
+.avatar-hado{background-image:url("./assets/agents/hado-v2.png");background-size:contain;background-position:center;border-radius:0}
+.avatar-wondo{background-image:url("./assets/agents/wondo-v2.png");background-size:contain;background-position:center;border-radius:0}
+.avatar-siado{background-image:url("./assets/agents/siado-v2.png");background-size:contain;background-position:center;border-radius:0}
+.host-agent-chips .avatar{border:0;border-radius:0;box-shadow:none}

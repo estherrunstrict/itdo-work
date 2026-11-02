@@ -117,3 +117,10 @@ explanation of the existing roles, not a change to runtime permissions or agents
 
 Run `python3 scripts/build-business-pages.py` from the workspace root after
 editing either stylesheet to update their versioned homepage URLs.
+
+## Transparent personal agent icons
+
+The four personal characters use individual transparent PNGs in `assets/agents/`
+through `agent-icons.css`. These replace quadrant crops of the original sheet.
+The dashboard uses identical PNGs. Source prompts and hashes are recorded in
+`../assets/agent-icons/README.md` and `manifest.json`.
